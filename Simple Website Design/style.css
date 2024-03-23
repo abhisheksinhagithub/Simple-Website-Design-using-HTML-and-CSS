@@ -1,0 +1,147 @@
+.logo {}
+
+.logo img {
+    width: 164px
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI';
+}
+
+.right ul {
+    display: flex;
+    gap: 20px;
+    word-spacing: 3px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: 'Segoe UI';
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 110px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 64vw;
+    text-align: center;
+}
+
+.btn {
+    background-color: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.first button {
+    background-color: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.second {
+
+    max-width: 70vw;
+    margin: auto;
+    font-family: 'Segoe UI';
+}
+
+.second img {
+    width: 55px;
+
+}
+
+.big {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.item {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.item-lang {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 55px;
+    gap: 10px;
+
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.download img {
+    padding: 0 12px;
+}
+
+@media screen and (max-width:900px) {
+    .grid {
+
+        grid-template-columns: 1fr;
+
+    }
+}
